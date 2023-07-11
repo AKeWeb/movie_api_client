@@ -27350,7 +27350,7 @@ const MainView = ()=>{
                 Birth: "1942-11-17",
                 Death: "Still alive"
             },
-            ImagePath: "../../public/img/Killers-of-the-Flower-Moon.png",
+            ImagePath: "../public/img/Killers-of-the-Flower-Moon.png",
             Featured: false,
             Year: "2023",
             Rating: "9.3",
@@ -27416,7 +27416,7 @@ const MainView = ()=>{
         columnNumber: 9
     }, undefined);
 };
-_s(MainView, "yCenufapogzF+2xHOcMh3SAjJek=");
+_s(MainView, "9xywDrmbuwer3JLYeGB3NTzpzBY=");
 _c = MainView;
 var _c;
 $RefreshReg$(_c, "MainView");
@@ -27518,7 +27518,7 @@ const MovieView = ({ movie, onBackClick })=>{
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                 children: [
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                        children: "Title:"
+                        children: "Title: "
                     }, void 0, false, {
                         fileName: "src/components/movie-view/movie-view.jsx",
                         lineNumber: 8,

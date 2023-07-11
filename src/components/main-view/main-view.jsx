@@ -21,9 +21,9 @@ export const MainView = () => {
                 Name:"Chad Stahelski",
                 Bio:"Chad Stahelski is an American stuntman and film director. He directed the 2014 film John Wick and its three sequels. He has worked as a stuntman, stunt coordinator and second unit director on several films.",
                 Birth:"1968-09-20",
-                Death:""
+                Death:"Still alive"
             },
-        ImagePath:"../public/img/John-Wick-Chapter-4.png",
+        ImagePath:"../public/John-Wick-Chapter-4.png",
         Featured:false,
         Year: "2023",
         Rating:"7.9",
@@ -44,9 +44,9 @@ export const MainView = () => {
             Name:"Martin Scorsese",
             Bio:"This Bio is now up-to-date",
             Birth:"1942-11-17",
-            Death:""
+            Death:"Still alive"
             },
-        ImagePath:"../public/img/Killers-of-the-Flower-Moon.png",
+        ImagePath:"../public/Killers-of-the-Flower-Moon.png",
         Featured:false,
         Year:"2023",
         Rating:"9.3",
@@ -66,8 +66,10 @@ export const MainView = () => {
             {
             Name:"Joaquim Dos Santos",
             Bio:"Joaquim Aranha dos Santos is a Portuguese-American animator, storyboard artist, director, producer, and writer. He is best known for his directing work on the television series Justice League Unlimited, Avatar: The Last Airbender, G.I. Joe: Resolute, The Legend of Korra, and Voltron: Legendary Defender.",Birth:"1977-6-22",
-            Death:""},
-        ImagePath: "../public/img/Spider-Man-Across-the-Spider-Verse.png",Featured:false,
+            Death:"Still alive"
+            },
+        ImagePath: "../public/Spider-Man-Across-the-Spider-Verse.png",
+        Featured:false,
         Year:"2023",
         Rating:"9.0",
         Actors:["Oscar Isaac","Shameik Moore"]

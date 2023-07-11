@@ -34,7 +34,7 @@ export const MovieView = ( {movie, onBackClick }) => {
             </div>
             <div>
                 <span>Director's date of death:</span>
-                <span>{movie.Direcotor.Death}</span>
+                <span>{movie.Director.Death}</span>
             </div>
             <div>
                 <span>Featured:</span>

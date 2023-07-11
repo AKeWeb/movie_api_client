@@ -23,7 +23,7 @@ export const MainView = () => {
                 Birth:"1968-09-20",
                 Death:"Still alive"
             },
-        ImagePath:"../public/John-Wick-Chapter-4.png",
+        ImagePath:"../public/img/John-Wick-Chapter-4.png",
         Featured:false,
         Year: "2023",
         Rating:"7.9",
@@ -46,7 +46,7 @@ export const MainView = () => {
             Birth:"1942-11-17",
             Death:"Still alive"
             },
-        ImagePath:"../public/Killers-of-the-Flower-Moon.png",
+        ImagePath:"../../public/img/Killers-of-the-Flower-Moon.png",
         Featured:false,
         Year:"2023",
         Rating:"9.3",
@@ -68,7 +68,7 @@ export const MainView = () => {
             Bio:"Joaquim Aranha dos Santos is a Portuguese-American animator, storyboard artist, director, producer, and writer. He is best known for his directing work on the television series Justice League Unlimited, Avatar: The Last Airbender, G.I. Joe: Resolute, The Legend of Korra, and Voltron: Legendary Defender.",Birth:"1977-6-22",
             Death:"Still alive"
             },
-        ImagePath: "../public/Spider-Man-Across-the-Spider-Verse.png",
+        ImagePath: "../public/img/Spider-Man-Across-the-Spider-Verse.png",
         Featured:false,
         Year:"2023",
         Rating:"9.0",

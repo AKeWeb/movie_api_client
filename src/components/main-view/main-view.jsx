@@ -93,7 +93,7 @@ export const MainView = () => {
                     key={movie.id}
                     movie={movie}
                     onMovieClick={(newSelectedMovie) => {
-                        selectedMovie(newSelectedMovie);
+                        setSelectedMovie(newSelectedMovie);
                     }}
                 />
             ))}

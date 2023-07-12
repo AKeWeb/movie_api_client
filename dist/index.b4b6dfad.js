@@ -27327,7 +27327,7 @@ const MainView = ()=>{
                 Birth: "1968-09-20",
                 Death: "Still alive"
             },
-            ImagePath: "../public/img/John-Wick-Chapter-4.png",
+            ImagePath: "https://image.tmdb.org/t/p/original/vZloFAK7NmvMGKE7VkF5UHaz0I.jpg",
             Featured: false,
             Year: "2023",
             Rating: "7.9",
@@ -27350,7 +27350,7 @@ const MainView = ()=>{
                 Birth: "1942-11-17",
                 Death: "Still alive"
             },
-            ImagePath: "../public/img/Killers-of-the-Flower-Moon.png",
+            ImagePath: "https://image.tmdb.org/t/p/original/yKzDnjsuLhh9B4xc0vNgz1YzYsT.jpg",
             Featured: false,
             Year: "2023",
             Rating: "9.3",
@@ -27373,7 +27373,7 @@ const MainView = ()=>{
                 Birth: "1977-6-22",
                 Death: "Still alive"
             },
-            ImagePath: "../public/img/Spider-Man-Across-the-Spider-Verse.png",
+            ImagePath: "https://image.tmdb.org/t/p/original/8Vt6mWEReuy4Of61Lnj5Xj704m8.jpg",
             Featured: false,
             Year: "2023",
             Rating: "9.0",
@@ -27416,7 +27416,7 @@ const MainView = ()=>{
         columnNumber: 9
     }, undefined);
 };
-_s(MainView, "9xywDrmbuwer3JLYeGB3NTzpzBY=");
+_s(MainView, "DNIc63o3eKoYBm7Vb6dDJjHKZg0=");
 _c = MainView;
 var _c;
 $RefreshReg$(_c, "MainView");

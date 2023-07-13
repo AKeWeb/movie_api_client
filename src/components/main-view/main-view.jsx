@@ -37,6 +37,9 @@ export const MainView = () => {
                 };
             });
             setMovies(moviesFromApi);
+        })
+        .catch((error) => {
+            console.log("Error feching movies:", error);
         });
     }, []);
 

@@ -27439,14 +27439,54 @@ parcelHelpers.export(exports, "MovieCard", ()=>MovieCard);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 const MovieCard = ({ movie, onMovieClick })=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        onClick: ()=>{
-            onMovieClick(movie);
-        },
-        children: movie.Title
-    }, void 0, false, {
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                onClick: ()=>{
+                    onMovieClick(movie);
+                },
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                    className: "movieImageCard",
+                    src: movie.ImagePath
+                }, void 0, false, {
+                    fileName: "src/components/movie-card/movie-card.jsx",
+                    lineNumber: 8,
+                    columnNumber: 13
+                }, undefined)
+            }, void 0, false, {
+                fileName: "src/components/movie-card/movie-card.jsx",
+                lineNumber: 4,
+                columnNumber: 9
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                onClick: ()=>{
+                    onMovieClick(movie);
+                },
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                        children: "Title:"
+                    }, void 0, false, {
+                        fileName: "src/components/movie-card/movie-card.jsx",
+                        lineNumber: 16,
+                        columnNumber: 13
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                        children: movie.Title
+                    }, void 0, false, {
+                        fileName: "src/components/movie-card/movie-card.jsx",
+                        lineNumber: 17,
+                        columnNumber: 13
+                    }, undefined)
+                ]
+            }, void 0, true, {
+                fileName: "src/components/movie-card/movie-card.jsx",
+                lineNumber: 11,
+                columnNumber: 9
+            }, undefined)
+        ]
+    }, void 0, true, {
         fileName: "src/components/movie-card/movie-card.jsx",
         lineNumber: 3,
-        columnNumber: 9
+        columnNumber: 8
     }, undefined);
 };
 _c = MovieCard;

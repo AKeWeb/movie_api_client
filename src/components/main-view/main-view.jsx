@@ -13,11 +13,12 @@ export const MainView = () => {
     useEffect(() => {
         fetch("https://my-movie-app-2023-cc0ff9edd5d2.herokuapp.com/movies")
         .then((response) => response.json())
-        .then ((data) => {
-            const moviesFromApi = data.map((movie) => {
+        .then ((movie) => {
+            const moviesFromApi = movie.map((movie) => {
                 return {
                     _id: movie._id,
                     Title: movie.Title,
+                    Description: movie.Description,
                     Genre: {
                         Name: movie.Genre.Name,
                         Description: movie.Genre.Description
